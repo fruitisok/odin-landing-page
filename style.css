@@ -1,3 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-head-two {
+    display: flex;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}
+
 ul {
     list-style: none;
+}
+
+li {
+    display: inline;
 }
