@@ -3,6 +3,16 @@
     src: url(fonts/BD_Geminis.ttf);
 }
 
+@font-face {
+    font-family: 'Fimo-outline';
+    src: url(fonts/BD\ Fimo\ Outline.otf);
+}
+
+@font-face {
+    font-family: 'Fimo-normal';
+    src: url(fonts/BD\ Fimo.otf);
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -16,6 +26,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 477px;
+    padding-bottom: 32px;
     background-image: linear-gradient(black, rgba(255,0,0,0));
 }
 
@@ -29,33 +41,37 @@ body {
 
 .container-head-two {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 48px;
     margin-bottom: 48px;
-    
+    margin-left: 30vh;
+    margin-right: 30vh;
+    min-width: 613px;
+    height: 100%;
 }
 
 .head-text {
     display: flex;
     flex-direction: column;
-    width: 60vh;
+    width: 50%;
     padding: 8px;
     gap: 8px;
 }
 
 .large {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 64px;
     -webkit-text-stroke: 1px #6aff00;
     /*text-shadow: 0px 2px 4px #6aff00;*/
     color: black;
 }
 
 .small {
-    padding-right: 100px;
-    font-size: 24px;
-    color: #d1d1d1;
+    padding-right: 75px;
+    font-size: 32px;
+    color: black;
+    font-family: 'Fimo-outline';
 }
 
 .button-one{
@@ -68,16 +84,49 @@ body {
 
 .head-img {
     display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
+    height: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 24px;
+    background-image: url(images/galaxy.png);
+    background-size: cover;
+}
+
+.transparent{
+    opacity: 0;
+}
+
+.galaxy{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo{
     align-items: center;
+    display: flex;
     justify-content: center;
-    background-color: azure;
-    width: 60vh;
-    
+    justify-items: center;
+    font-size: 24px;
+}
+
+.logo-text{
+    padding-top: 6px;
 }
 
 .logo-img {
     height: 5vh;
     width: auto;
+    margin-left: 30vh;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.list {
+    margin-right: 30vh;
 }
 
 .content {
@@ -90,10 +139,16 @@ body {
 
 ul {
     list-style: none;
+    padding-top: 6px;
+    margin-right: 0px;
 }
 
 li {
     display: inline;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.link-three{
+    padding-right: 0px;
 }
