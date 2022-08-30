@@ -6,6 +6,7 @@
 body {
     min-height: 100vh;
     display: flex;
+    margin: 0;
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Geminis';
@@ -14,30 +15,64 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(black, rgba(255,0,0,0));
 }
 
 .container-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: azure;
+    border: 2px solid #6aff00;
 }
 
 .container-head-two {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    
 }
 
 .head-text {
     display: flex;
     flex-direction: column;
-    
+    width: 60vh;
+    padding: 8px;
+    gap: 8px;
+}
+
+.large {
+    font-weight: bold;
+    font-size: 48px;
+    -webkit-text-stroke: 1px #6aff00;
+    /*text-shadow: 0px 2px 4px #6aff00;*/
+    color: black;
+}
+
+.small {
+    padding-right: 100px;
+    font-size: 24px;
+    color: #d1d1d1;
+}
+
+.button-one{
+    width: 75px;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: black;
+    color: azure;
 }
 
 .head-img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: azure;
+    width: 60vh;
+    
 }
 
 .logo-img {
@@ -59,4 +94,6 @@ ul {
 
 li {
     display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
 }
