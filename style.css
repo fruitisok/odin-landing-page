@@ -103,7 +103,7 @@ body {
     height: 93%;
     /*border: 2px solid black;*/
     border-radius: 24px;
-    /*box-shadow: 0px 0px 8px 1px black;*/
+    box-shadow: 0px 0px 8px 1px black;
     background-image: url(images/galaxy.png);
     background-size: cover;
 }
