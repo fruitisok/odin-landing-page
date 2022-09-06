@@ -211,3 +211,25 @@ li {
     justify-items: center;
     text-align: center;
 }
+
+.quote{
+    display: flex;
+    font-size: 32px;
+    overflow-wrap: break-word;
+    width: inherit;
+    inline-size: 1000px;
+    word-break: break-all;
+}
+
+.quote-author{
+    font-size: 24px;
+}
+
+.content-container-two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    inline-size: 1000px;
+    
+}
