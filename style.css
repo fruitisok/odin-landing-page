@@ -254,6 +254,12 @@ li {
     align-content: center;
     background-image: linear-gradient(rgba(128, 18, 18, 0),#2e4033);
     color: azure;
-    
-    
+}
+
+.content-container-three{
+    display: flex;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    align-items: center;
+    justify-content: center;
 }
