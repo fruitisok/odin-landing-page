@@ -151,10 +151,6 @@ body {
     margin-top: 0px;
 }
 
-.footer{
-    display: flex;
-}
-
 ul {
     list-style: none;
     padding-top: 6px;
@@ -303,4 +299,39 @@ li {
     font-size: 24px;
     -webkit-text-stroke: 1px black;
     font-family: 'Fimo-normal';
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    font-family: 'Geminis';
+    font-size: 24px;
+}
+
+.self-link{
+    text-align: center;
+}
+
+.font-link{
+    text-align: center;
+    font-size: 12px;
+}
+
+a:link{
+    text-decoration: none;
+    color: azure;
+}
+
+a:visited{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: #6aff00;
 }
