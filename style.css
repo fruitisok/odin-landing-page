@@ -215,9 +215,8 @@ li {
     justify-content: center;
     justify-items: center;
     text-align: center;
-    font-family: 'Fimo-normal';
+    font-family: 'Fimo-outline';
     font-size: 28px;
-    -webkit-text-stroke: 1px azure;
 }
 
 .quote{
@@ -226,29 +225,31 @@ li {
     margin-left: 30vh;
     margin-right: 30vh;
     overflow-wrap: break-word;
-    width: inherit;
+    width: 992px;
     word-break: break-all;
+    font-style: italic;
 }
 
 .quote-author{
-    font-size: 18px;
+    font-size: 28px;
     margin-left: 30vh;
-    margin-right: 93vh;
+    margin-right: 32vh;
     align-items: flex-end;
     justify-content: flex-end;
     align-content: flex-end;
     display: flex;
-    width: 100%;
+    width: 992px;
+    font-weight: bold;
+    font-family: 'Fimo-outline';
 }
 
 .content-container-two{
     display: flex;
     flex-direction: column;
     margin-top: 32px;
-    margin-bottom: 32px;
     padding: 32px;
-    padding-top: 92px;
-    padding-bottom: 60px;
+    padding-top: 105px;
+    padding-bottom: 80px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -258,8 +259,29 @@ li {
 
 .content-container-three{
     display: flex;
-    margin-left: 30vh;
-    margin-right: 30vh;
     align-items: center;
     justify-content: center;
+    min-height: 420px;
+    height: 0;
+    width: 100%;
+    background-image: url(images/codeboi.png);
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.content-box-three{
+    display: flex;
+    background-color: rgba(255, 255, 255, .9);
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.call-to-action{
+    
+}
+
+.content-button{
+   
 }
