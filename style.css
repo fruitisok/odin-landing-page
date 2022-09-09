@@ -92,7 +92,6 @@ body {
     color: azure;
     font-size: 24px;
     -webkit-text-stroke: 1px black;
-    box-shadow: 0px 0px 8px 1px black;
     font-family: 'Fimo-normal';
 }
 
@@ -276,12 +275,32 @@ li {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0px 0px 8px 1px #2e4033;
 }
 
 .call-to-action{
-    
+   margin-right: 100px;
+   font-family: 'Fimo-normal';
+   color: #2e4033;
 }
 
-.content-button{
-   
+.title-three{
+    font-size: 42px;
+}
+
+.text-three{
+    font-size: 24px;
+}
+
+.button-three{
+    width: 75px;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: #2e4033;
+    color: azure;
+    font-size: 24px;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Fimo-normal';
 }
