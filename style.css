@@ -41,17 +41,20 @@ body {
     align-items: center;
     color: azure;
     border: 2px solid #6aff00;
+    background-color: black;
+    width: 99.8%;
+    position: fixed;
 }
 
 .container-head-two {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin-top: 48px;
+    margin-top: 120px;
     margin-bottom: 48px;
     margin-left: 30vh;
     margin-right: 30vh;
-    min-width: 613px;
+    min-width: 899px;
     height: 100%;
     background-image: linear-gradient(#e6e6e6, rgba(128, 18, 18, 0));
     border-radius: 24px;
